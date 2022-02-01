@@ -1,0 +1,40 @@
+.thirdAuthButton {
+    background-color: white;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .thirdAuthButton:hover {
+    box-shadow: rgba(167, 167, 167, 0.42) 0px 0px 1px 3px;
+    transition-duration: .1s;
+  }
+
+  .thirdAuthButton img{
+    margin-right: 6px;
+    width: 2rem;
+    height: 2rem;
+
+  }
+  
+  @media (min-width: 768px) {
+    .thirdAuthButton {
+      padding: 0 2.6rem;
+    }
+  }
